@@ -2,19 +2,54 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+ol,
 ul {
-  background-color: #769ba3;
   height: auto;
-  width: 400px;
   padding: 50px;
   border: solid black 10px;
   border-radius: 5px;
   margin: 10px;
 }
 
-h1 {
-  border-bottom: solid #076399 5px;
+ul {
+  background-color: #769ba3;
+  width: 400px;
+}
+
+h1,
+h3 {
   margin: 30px;
   width: 400px;
 }
 
+h1 {
+  border-bottom: solid #076399 5px;
+}
+
+h3 {
+  border-bottom: solid #3c6f55 5px;
+}
+
+p {
+  margin: 30px;
+  height: auto;
+  width: 800px;
+  border: dotted;
+  padding: 10px;
+}
+
+ol {
+  background-color: #008572;
+  width: 800px;
+}
+
+.home-link {
+  padding: 10px 40px;
+  margin: 20px;
+  color: #398b53;
+  background-color: #b9b916;
+  border-bottom: solid #8b79b5 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
